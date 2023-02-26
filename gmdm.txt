@@ -1,0 +1,22 @@
+"gmdm"
+{
+    "base"		"base"
+	"title"		"Garry's Mod: Deathmatch"
+	"category"	"pvp"
+    "maps"  "^dm_"
+	"menusystem"	"1"
+	"workshopid"	""
+
+    "settings"
+    {
+        1
+        {
+            "name"		"gdm_pm"
+			"text"		"Playermodels permitted"
+			"help"		"1: All custom playermodels installed to server. 2: Only HL2 playermodels. 3: Only HL2DM playermodels (rebels, combine.)"
+			"type"		"Numeric"
+			"default"	"1"
+        }
+
+    }
+}
