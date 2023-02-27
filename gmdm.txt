@@ -14,7 +14,7 @@
             "name"		"gmod_suit"
 			"text"		"Hev Suit (Reccomended ON)"
 			"help"		""
-			"type"		"Numeric"
+			"type"		"CheckBox"
 			"default"	"1"
         }
 
@@ -24,7 +24,7 @@
 			"text"		"Lets players noclip (Reccomended OFF)"
 			"help"		"If enabled, players will be able to use noclip (Reccomended OFF)"
 			"type"		"CheckBox"
-			"default"	"1"
+			"default"	"0"
 		}
     }
 }
