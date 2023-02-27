@@ -4,11 +4,20 @@ AddCSLuaFile( "shared.lua" )
 include( "shared.lua" )
 
 function GM:PlayerSpwan(ply)
-
+    
     return true
 end
 
+function GM:SpawnMenuEnabled()
+
+    return false
+    
+end
+
+
+
 function GM:PlayerLoadout(ply)
+    ply:ShouldDropWeapon(true)
     ply:SetMaxHealth(100)
     ply:SetArmor(25)
     ply:SetMaxArmor(100)

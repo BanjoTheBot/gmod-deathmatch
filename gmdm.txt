@@ -11,12 +11,20 @@
     {
         1
         {
-            "name"		"gdm_pm"
-			"text"		"Playermodels permitted"
-			"help"		"1: All custom playermodels installed to server. 2: Only HL2 playermodels. 3: Only HL2DM playermodels (rebels, combine.)"
+            "name"		"gmod_suit"
+			"text"		"Hev Suit (Reccomended ON)"
+			"help"		""
 			"type"		"Numeric"
 			"default"	"1"
         }
 
+        2
+		{
+			"name"		"sbox_noclip"
+			"text"		"Lets players noclip (Reccomended OFF)"
+			"help"		"If enabled, players will be able to use noclip (Reccomended OFF)"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
     }
 }
