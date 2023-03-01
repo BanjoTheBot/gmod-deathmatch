@@ -4,7 +4,7 @@ AddCSLuaFile( "shared.lua" )
 include( "shared.lua" )
 
 function GM:PlayerSpwan(ply)
-    
+    RunConsoleCommand("sbox_noclip", 0)
     return true
 end
 
@@ -18,6 +18,7 @@ end
 
 function GM:PlayerLoadout(ply)
     ply:ShouldDropWeapon(true)
+    ply:CanUseFlashlight(false)
     ply:SetMaxHealth(100)
     ply:SetArmor(25)
     ply:SetMaxArmor(100)

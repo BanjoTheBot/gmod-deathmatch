@@ -7,21 +7,21 @@ GM.Website = "N/A"
 DeriveGamemode ("sandbox")
 
 function GM:Initialize()
+
+end
 	
-end
+    local function clean()
+        RunConsoleCommand("gmod_admin_cleanup")
+    end
 
-local function reload()
-    RunConsoleCommand("gmod_admin_cleanup")
-end
+    local function text()
+        PrintMessage(HUD_PRINTTALK, "All weapons and props have been returned to their places!")
+    end
 
-local function text()
-    PrintMessage(HUD_PRINTTALK "All weapons and props have been returned to their places!")
-end
+    local function yes()
+        timer.Create( "UniqueName1", 5, 0, clean )
+        timer.Create( "UniqueName2", 5, 0, text)
+    end
 
-local function yes( )
-    timer.Create( "UniqueName1", 5, 0, function() reload() end)
-    timer.Create( "UniqueName2", 5, 0, function() text() end)
-end
-
-hook.Add( "Initialize", "Timer Example", reload )
-    
+hook.Add( "Initialize", "Timer Example", yes )
+        

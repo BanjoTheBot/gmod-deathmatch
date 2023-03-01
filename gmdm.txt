@@ -15,16 +15,16 @@
 			"text"		"Hev Suit (Reccomended ON)"
 			"help"		""
 			"type"		"CheckBox"
-			"default"	"1"
+			"default"	"0"
         }
 
         2
 		{
-			"name"		"sbox_noclip"
-			"text"		"Lets players noclip (Reccomended OFF)"
-			"help"		"If enabled, players will be able to use noclip (Reccomended OFF)"
-			"type"		"CheckBox"
-			"default"	"0"
+			"name"		""
+			"text"		""
+			"help"		""
+			"type"		""
+			"default"	""
 		}
     }
 }
