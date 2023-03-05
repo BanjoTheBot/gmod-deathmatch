@@ -19,8 +19,8 @@ end
     end
 
     local function yes()
-        timer.Create( "UniqueName1", 5, 0, clean )
-        timer.Create( "UniqueName2", 5, 0, text)
+        timer.Create( "UniqueName1", 300, 0, clean )
+        timer.Create( "UniqueName2", 300, 0, text )
     end
 
 hook.Add( "Initialize", "Timer Example", yes )

@@ -15,7 +15,7 @@
 			"text"		"Hev Suit (Reccomended ON)"
 			"help"		""
 			"type"		"CheckBox"
-			"default"	"0"
+			"default"	"1"
         }
 
         2

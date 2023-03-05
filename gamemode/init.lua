@@ -1,7 +1,9 @@
 AddCSLuaFile( "cl_init.lua" )
 AddCSLuaFile( "shared.lua" )
+AddCSLuaFile( "commands.lua" )
 
 include( "shared.lua" )
+include( "commands.lua" )
 
 function GM:PlayerSpwan(ply)
     RunConsoleCommand("sbox_noclip", 0)

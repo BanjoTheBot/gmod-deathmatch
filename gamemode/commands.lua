@@ -1,0 +1,2 @@
+-- this is for serverside commands. clientside commands go into cl_init.lua, for now
+-- cmd names are gmdm_
