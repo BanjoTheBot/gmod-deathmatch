@@ -1,14 +1,14 @@
-include( "shared.lua" )
+include("shared.lua")
 
 local allowed = {}
 -- this is here to prevent errors from appearing from trying to open the spawn menu, the original code had a part
 -- for allowing certain steam id, which I do not need, and i cannot be bothered fixing it
 
-hook.Add( "SpawnMenuOpen", "SpawnMenuWhitelist", function()
-	if ( !allowed[ LocalPlayer():SteamID() ] ) then
+hook.Add("SpawnMenuOpen", "SpawnMenuWhitelist", function()
+	if (!allowed[LocalPlayer():SteamID()]) then
 		return false
 	end
-end )
+end)
 
 -- client side commands
 

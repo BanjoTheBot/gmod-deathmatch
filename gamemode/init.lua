@@ -1,9 +1,9 @@
-AddCSLuaFile( "cl_init.lua" )
-AddCSLuaFile( "shared.lua" )
-AddCSLuaFile( "commands.lua" )
+AddCSLuaFile("cl_init.lua")
+AddCSLuaFile("shared.lua")
+AddCSLuaFile("commands.lua")
 
-include( "shared.lua" )
-include( "commands.lua" )
+include("shared.lua")
+include("commands.lua")
 
 function GM:PlayerSpwan(ply)
     RunConsoleCommand("sbox_noclip", 0)
@@ -11,12 +11,8 @@ function GM:PlayerSpwan(ply)
 end
 
 function GM:SpawnMenuEnabled()
-
     return false
-    
 end
-
-
 
 function GM:PlayerLoadout(ply)
     ply:ShouldDropWeapon(true)
