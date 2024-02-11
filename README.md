@@ -1,3 +1,5 @@
+# THIS PROJECT IS DEAD 
+**I'll leave issues and stuff open in the miniscule chance I ever come back to this, but the code is such a mess of code I copy and pasted willy nilly back when I was stupid, I'll probably just rewrite it if I ever want to work on it again.**
 # Garry's Mod: Deathmatch
 A recreation of HL2 Deathmatch in GMOD. In development.
 
